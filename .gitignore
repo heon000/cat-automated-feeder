@@ -1,0 +1,25 @@
+# 1. Java 컴파일 바이너리 및 빌드 폴더
+*.class
+bin/
+out/
+target/
+
+# 2. 로컬 프로그램 런타임 데이터 파일 (자동 생성 파일)
+cat_data.txt
+
+# 3. Eclipse 설정 파일 및 메타데이터
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# 4. 기타 IDE 및 에디터 설정 (VS Code, IntelliJ)
+.vscode/
+.idea/
+*.iml
+
+# 5. 운영체제 자동 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
